@@ -1,0 +1,533 @@
+```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seyed Hossein Tavabe Ghavami | Graphic Designer</title>
+
+    <meta name="description"
+        content="Seyed Hossein Tavabe Ghavami — Graphic Designer specializing in Visual Identity, Logo Design, Typography, Print and Digital Design.">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f5;
+            color: #202020;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: min(1100px, 90%);
+            margin: auto;
+        }
+
+        /* HEADER */
+
+        header {
+            padding: 100px 0 80px;
+        }
+
+        .name {
+            font-size: clamp(38px, 6vw, 64px);
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .title {
+            margin-top: 8px;
+            font-size: 20px;
+            color: #777;
+            direction: ltr;
+            text-align: right;
+        }
+
+        .intro {
+            max-width: 720px;
+            margin-top: 35px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* NAVIGATION */
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(247,247,245,0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav .container {
+            display: flex;
+            gap: 25px;
+            overflow-x: auto;
+            padding: 16px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #444;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 80px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        .section-number {
+            font-size: 13px;
+            color: #999;
+            direction: ltr;
+            text-align: right;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 5px;
+            margin-bottom: 8px;
+        }
+
+        .section-description {
+            color: #777;
+            margin-bottom: 35px;
+        }
+
+        /* GALLERY */
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .work {
+            position: relative;
+            overflow: hidden;
+            background: #e9e9e6;
+            border-radius: 4px;
+            min-height: 280px;
+        }
+
+        .work img {
+            width: 100%;
+            height: 100%;
+            min-height: 280px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .work:hover img {
+            transform: scale(1.03);
+        }
+
+        /* ABOUT */
+
+        .about {
+            max-width: 760px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* FOOTER */
+
+        footer {
+            padding: 60px 0;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 650px) {
+
+            header {
+                padding: 70px 0 60px;
+            }
+
+            .intro {
+                font-size: 16px;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .work,
+            .work img {
+                min-height: 240px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container">
+
+            <div class="name">
+               سید حسین توابع قوامی
+            </div>
+
+            <div class="title">
+                Graphic Designer
+            </div>
+
+            <p class="intro">
+                طراح گرافیک با تمرکز بر طراحی هویت بصری، هویت برند،
+              لوگو، تایپوگرافی، طراحی تبلیغات چاپی و دیجیتالی
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="container">
+
+            <a href="#logo">طراحی لوگو</a>
+            <a href="#identity">هویت بصری</a>
+            <a href="#print">طراحی چاپ</a>
+            <a href="#digital">طراحی دیجیتال</a>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+
+        <!-- 01 LOGO DESIGN -->
+
+        <section id="logo">
+
+            <div class="container">
+
+                <div class="section-number">
+                    01 / LOGO DESIGN
+                </div>
+
+                <h2>
+                  طراحی لوگو
+
+                </h2>
+
+                <p class="section-description">
+                مجموعه‌ای از لوگوها و لوگوتایپ‌هایی که نمایانگر سبک طراحی و نگاه بصری من هستند
+
+                </p>
+
+
+                <div class="gallery">
+
+                    <div class="work">
+
+                        <img src="images/logo-01.jpg"
+                             alt="لوگو های منتخب">
+
+                    </div>
+
+
+                    <div class="work">
+
+                        <img src="images/logo-02.jpg"
+                             alt="دیگر نمونه های دیگر">
+
+                    </div>
+
+
+                </div>
+
+        </section>
+
+
+
+        <!-- 02 VISUAL IDENTITY -->
+
+        <section id="identity">
+
+            <div class="container">
+
+                <div class="section-number">
+                    02 / VISUAL IDENTITY
+                </div>
+
+                <h2>
+                    هویت بصری
+                </h2>
+
+                <p class="section-description">
+                    طراحی هویت بصری و توسعه عناصر گرافیکی برند.
+                </p>
+
+
+                <div class="gallery">
+
+                    <!-- IMAGE 01 -->
+
+                    <div class="work">
+
+                        <img src="images/identity-01.jpg"
+                             alt="پروژه طراحی هویت بصری جواهراتی و کاربرد آن در اقلام مختلف">
+
+                    </div>
+
+
+                    <!-- IMAGE 02 -->
+
+                    <div class="work">
+
+                        <img src="images/identity-02.jpg"
+                             alt="پروژه طراحی هویت بصری ندای موج ارتباطات و کاربرد آن در اقلام مختلف">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- 03 PRINT -->
+
+        <section id="print">
+
+            <div class="container">
+
+                <div class="section-number">
+                    03 / PRINT & ADVERTISING
+                </div>
+
+                <h2>
+                    طراحی چاپ
+                </h2>
+
+                <p class="section-description">
+                پوستر، صفحات مجله، کاتالوگ، تراکت، کارت ویزیت، سربرگ،
+                
+سر نسخه، اتیکت لباس و کارت آویز و سایر آثار چاپی
+                </p>
+
+
+                <div class="gallery">
+
+                    <div class="work">
+
+                        <img src="images/print-01.jpg"
+                             alt="طراحی پوستر">
+
+                    </div>
+
+                    <div class="work">
+
+                        <img src="images/print-02.jpg"
+                             alt="طراحی صفحات مجله">
+
+                    </div>
+
+
+                    <div class="work">
+
+                        <img src="images/print-03.jpg"
+                             alt="طراحی کاتالوگ">
+
+                    </div>
+
+
+                    <div class="work">
+
+                        <img src="images/print-04.jpg"
+                             alt="طراحی تراکت">
+
+                    </div>
+
+
+                    <div class="work">
+
+                        <img src="images/print-05.jpg"
+                             alt="طراحی کارت ویزیت">
+
+                    </div>
+                    
+                    <div class="work">
+
+                        <img src="images/print-06.jpg"
+                             alt="سربرگ">
+
+                    </div>
+
+                     <div class="work">
+
+                        <img src="images/print-07.jpg"
+                             alt="سر نسخه">
+
+                    </div>
+
+                       <div class="work">
+
+                        <img src="images/print-08.jpg"
+                             alt="اتیکت لباس و کارت آویز">
+
+                    </div>
+
+                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            </div>
+
+        </section>
+
+
+
+
+  <!-- 04 PRINT -->
+
+        <section id="print">
+
+            <div class="container">
+
+                <div class="section-number">
+                    04 / DIGITAL DESIGN
+                </div>
+
+                <h2>
+                    طراحی دیجیتال
+                </h2>
+
+                <p class="section-description">
+                 محتوای شبکه‌های اجتماعی، بنرهای وب، کاورهای موزیک ( و فتومنتاژ)
+                </p>
+
+
+                <div class="gallery">
+
+                    <div class="work">
+
+                        <img src="images/print-01.jpg"
+                             alt="طراحی محتوای شبکه‌های اجتماعی (پست اینستاگرام)">
+
+                    </div>
+
+                    <div class="work">
+
+                        <img src="images/print-02.jpg"
+                             alt="طراحی محتوای شبکه‌های اجتماعی (استوری اینستاگرام)">
+
+                    </div>
+
+
+                    <div class="work">
+
+                        <img src="images/print-03.jpg"
+                             alt="طراحی بنر وب">
+
+                    </div>
+
+
+                    <div class="work">
+
+                        <img src="images/print-04.jpg"
+                             alt="طراحی کاورهای موزیک">
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+
+        <section>
+
+            <div class="container">
+
+                <h2>
+                    درباره من
+                </h2>
+
+                <p class="about">
+              تجربه گسترده در اجرای پروژه‌های مستقل برای برندها و کسب‌وکارهای مختلف
+              و همکاری با مجموعه‌های طراحی، چاپ و تبلیغات.
+              مسلط به طراحی گرافیک و اجرای انواع پروژه‌های طراحی شامل:
+              هویت بصری، لوگو، تایپوگرافی، کاتالوگ، بروشور، پوستر
+              و سایر اقلام تبلیغاتی چاپی و دیجیتال،
+              محتوای شبکه‌های اجتماعی، طراحی کاور و فتومونتاژ.
+              مسلط به استفاده از نرم افزارهای فتوشاپ و کورل
+              در اجرای پروژه‌های طراحی محتوای دیجیتال، اقلام چاپی و تبلیغات.
+            </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer>
+
+        © Seyed Hossein Tavabe Ghavami — Graphic Designer
+
+    </footer>
+
+
+</body>
+
+</html>
+```
