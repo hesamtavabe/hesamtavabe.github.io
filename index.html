@@ -138,16 +138,18 @@
         /* GALLERY */
 
         .gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 18px;
-        }
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    width: 100%;
+}
 
        .work {
     position: relative;
     overflow: hidden;
-    background: #ffffff;
+    background: #e9e9e6;
     border-radius: 4px;
+    min-width: 0;
 }
 
 .work img {
@@ -246,7 +248,13 @@
 </a>
     
 <body>
-
+ {
+    font-family: Arial, sans-serif;
+    background: #f7f7f5;
+    color: #202020;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
 
     <!-- HEADER -->
 
@@ -402,7 +410,6 @@
 سر نسخه، اتیکت لباس و کارت آویز و سایر آثار چاپی
                 </p>
 
-
                 <div class="gallery">
 
                     <div class="work">
@@ -465,11 +472,6 @@
                     </div>
 
                 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
             </div>
 
