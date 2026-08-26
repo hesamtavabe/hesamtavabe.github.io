@@ -193,7 +193,7 @@
     padding: 60px 0;
     text-align: center;
     color: #888;
-    font-size: 9px;
+    font-size: 7px;
 }
 
 .footer-text {
@@ -222,11 +222,12 @@
             .gallery {
                 grid-template-columns: 1fr;
             }
-
-            .work,
-            .work img {
-                min-height: 240px;
-            }
+.work img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
 
         }
 
